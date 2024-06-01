@@ -1,0 +1,44 @@
+body{
+    background-color:aliceblue;
+}
+
+h1{
+    color:aliceblue;
+    border: 5px solid black;
+    border-radius:10px;
+    text-align:center;
+    background: black;
+    margin: 30px 70px 150px 20px;
+}
+
+p{
+    color:blue;
+    text-align: center;
+    text-decoration:none;
+    text-indent: 50px;
+    word-spacing:15px;
+   
+   
+}
+
+.botao{
+    margin-left: 33%;
+    background: green;
+    color: azure;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    padding-left: 50px;
+    padding-right: 50px;
+    border-radius: 5px;
+    text-decoration: none;
+}
+.batao:hover{
+    background-color: blueviolet;
+
+}
+
+.teste{
+    max-width:800px;
+    height: 250px;
+    background: cyan;
+}
