@@ -1,45 +1,44 @@
-
-
-.cont-text{
-    border:1px solid black;
-    overflow: auto;
-
+body{
+    background-color:aliceblue;
 }
 
-.cont-text img{
-    float:left;
-    margin-right: 20px;
-    
+h1{
+    color:aliceblue;
+    border: 5px solid black;
+    border-radius:10px;
+    text-align:center;
+    background: black;
+    margin: 30px 70px 150px 20px;
 }
 
-ul{
-    background: black; 
-    
-
-}
-
-li{
-    display: inline-block;
-    padding: 20px;
-}
-
-li a{
-    color:white;
-    text-decoration: none;
-    padding: 20px;
-}
-
-li a:hover{
-    background: #ccc;
-    color:white;
+p{
+    color:blue;
+    text-align: center;
+    text-decoration:none;
+    text-indent: 50px;
+    word-spacing:15px;
+   
    
 }
 
-.login{
-    float:right;
+.botao{
+    margin-left: 33%;
+    background: green;
+    color: azure;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    padding-left: 50px;
+    padding-right: 50px;
+    border-radius: 5px;
+    text-decoration: none;
+}
+.batao:hover{
+    background-color: blueviolet;
+
 }
 
-.login a:hover{
-    background: orange;
-    color:white ;
+.teste{
+    max-width:800px;
+    height: 250px;
+    background: cyan;
 }

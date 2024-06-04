@@ -1,33 +1,44 @@
-.img1:hover{
-    opacity: 0.5;
+body{
+    background-color:aliceblue;
 }
 
-.img2:hover{
-    opacity: 0.7;
+h1{
+    color:aliceblue;
+    border: 5px solid black;
+    border-radius:10px;
+    text-align:center;
+    background: black;
+    margin: 30px 70px 150px 20px;
 }
 
-.img3:hover{
-    opacity: 0.9;
+p{
+    color:blue;
+    text-align: center;
+    text-decoration:none;
+    text-indent: 50px;
+    word-spacing:15px;
+   
+   
 }
 
-
-a.botao{
-    padding: 15px;
+.botao{
+    margin-left: 33%;
     background: green;
-    color:aliceblue;
+    color: azure;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    padding-left: 50px;
+    padding-right: 50px;
+    border-radius: 5px;
     text-decoration: none;
-    opacity: 1;
+}
+.batao:hover{
+    background-color: blueviolet;
+
 }
 
-a.botao:hover{
-    padding:15px;
-    opacity:0.9;
-}
-
-.transparente{
-    background: blue;
-    color:aliceblue;
-    padding: 40px;
-    opacity: 0.5;
-
+.teste{
+    max-width:800px;
+    height: 250px;
+    background: cyan;
 }
