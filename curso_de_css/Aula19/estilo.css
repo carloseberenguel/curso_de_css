@@ -1,44 +1,33 @@
-body{
-    background-color:aliceblue;
+.img1:hover{
+    opacity: 0.5;
 }
 
-h1{
-    color:aliceblue;
-    border: 5px solid black;
-    border-radius:10px;
-    text-align:center;
-    background: black;
-    margin: 30px 70px 150px 20px;
+.img2:hover{
+    opacity: 0.7;
 }
 
-p{
-    color:blue;
-    text-align: center;
-    text-decoration:none;
-    text-indent: 50px;
-    word-spacing:15px;
-   
-   
+.img3:hover{
+    opacity: 0.9;
 }
 
-.botao{
-    margin-left: 33%;
+
+a.botao{
+    padding: 15px;
     background: green;
-    color: azure;
-    padding-top: 30px;
-    padding-bottom: 30px;
-    padding-left: 50px;
-    padding-right: 50px;
-    border-radius: 5px;
+    color:aliceblue;
     text-decoration: none;
-}
-.batao:hover{
-    background-color: blueviolet;
-
+    opacity: 1;
 }
 
-.teste{
-    max-width:800px;
-    height: 250px;
-    background: cyan;
+a.botao:hover{
+    padding:15px;
+    opacity:0.9;
+}
+
+.transparente{
+    background: blue;
+    color:aliceblue;
+    padding: 40px;
+    opacity: 0.5;
+
 }

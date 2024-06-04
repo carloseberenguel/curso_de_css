@@ -1,44 +1,35 @@
-body{
-    background-color:aliceblue;
+.container{
+    display: inline-block;
+    width: 100%;
+    height: 400px;
+
 }
 
-h1{
-    color:aliceblue;
-    border: 5px solid black;
-    border-radius:10px;
-    text-align:center;
-    background: black;
-    margin: 30px 70px 150px 20px;
-}
-
-p{
-    color:blue;
+.centro{
+    position:absolute;
+    top: 50%;
     text-align: center;
-    text-decoration:none;
-    text-indent: 50px;
-    word-spacing:15px;
-   
-   
+    width: 100%;
+    
 }
 
-.botao{
-    margin-left: 33%;
+img{
+    width: 100%;
+    height: 500px;
+    opacity: 0.5;
+    border:2px solid green;
+
+}
+
+
+
+.whats{
     background: green;
     color: azure;
-    padding-top: 30px;
-    padding-bottom: 30px;
-    padding-left: 50px;
-    padding-right: 50px;
-    border-radius: 5px;
-    text-decoration: none;
-}
-.batao:hover{
-    background-color: blueviolet;
-
-}
-
-.teste{
-    max-width:800px;
-    height: 250px;
-    background: cyan;
+    width: 80px;
+    height: 80px;
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+    border-radius: 50%;
 }
