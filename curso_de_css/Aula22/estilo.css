@@ -1,11 +1,11 @@
-.exemplo{
-    background: blue;
-    color: aliceblue;
-    height: 150px;
-    overflow: auto;
-    width: 1200px;
+#meuid{
+    color:red;
 }
 
-body{
-    overflow-x:hidden;
+.minhaclasse{
+    color: blue;
+}
+
+h1{
+    color:green !important;
 }
