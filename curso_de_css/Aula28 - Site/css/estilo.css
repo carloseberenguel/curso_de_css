@@ -1,0 +1,16 @@
+*{
+    box-sizing:border-box;
+}
+
+body{
+    margin:0;
+}
+
+.navbar{
+    display: flex;
+    height: 100px;
+    background: cadetblue;
+    flex-flow:row wrap;
+}
+
+/*Parou nos 11 minutos*/
