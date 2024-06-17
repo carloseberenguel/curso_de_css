@@ -1,11 +1,5 @@
-.exemplo{
-    background: blue;
-    color: aliceblue;
-    height: 150px;
-    overflow: auto;
-    width: 1200px;
-}
-
-body{
-    overflow-x:hidden;
+.gradiente{
+    width:100%;
+    height:300px;
+    background-image:linear-gradient(to right,red,orange,yellow,green,blue,indigo,violet);
 }
